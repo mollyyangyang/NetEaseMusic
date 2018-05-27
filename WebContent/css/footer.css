@@ -1,0 +1,38 @@
+.footer {
+    color: #999;
+    background-color: #333;
+    vertical-align: middle;
+    margin:0 auto;
+}
+
+.footer a {
+    color: #999
+}
+
+.footer a:hover {
+    color: #31c27c
+}
+
+.footer_copyright {
+    font-size: 12px
+}
+
+.section_inner {
+    margin: 0 auto;
+}
+
+.section_inner::after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.footer_copyright {
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    padding: 24px 0
+}
+.footer p{
+    overflow-y: hidden;
+}
